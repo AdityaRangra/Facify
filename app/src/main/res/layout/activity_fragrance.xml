@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools2:layout_editor_absoluteX="1dp"
+    tools2:layout_editor_absoluteY="301dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.aditya.com/tools"
+    xmlns:tools2="http://schemas.android.com/tools">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragranceActivity">
+
+        <ImageButton
+            android:id="@+id/imageButton22"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/white"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/tmc" />
+
+        <ImageButton
+            android:id="@+id/imageButton24"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/white"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="@+id/imageButton22"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton22"
+            app:srcCompat="@drawable/bombayshavingcompany" />
+
+        <ImageButton
+            android:id="@+id/imageButton40"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/white"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton24"
+            app:layout_constraintStart_toStartOf="@+id/imageButton24"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton24"
+            app:srcCompat="@drawable/beard" />
+
+        <ImageButton
+            android:id="@+id/imageButton44"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/white"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton40"
+            app:layout_constraintStart_toStartOf="@+id/imageButton40"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton40"
+            app:srcCompat="@drawable/mamaearth" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/white"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="@+id/imageButton44"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton44"
+            app:srcCompat="@drawable/bella_vita" />
+
+        <ImageButton
+            android:id="@+id/imageButton51"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/white"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton2"
+            app:layout_constraintStart_toStartOf="@+id/imageButton2"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+            app:srcCompat="@drawable/body_cupid" />
+
+        <ImageButton
+            android:id="@+id/imageButton116"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/white"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton51"
+            app:layout_constraintStart_toStartOf="@+id/imageButton51"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton51"
+            app:srcCompat="@drawable/ustraa" />
+
+        <ImageButton
+            android:id="@+id/imageButton196"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/white"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton116"
+            app:layout_constraintStart_toStartOf="@+id/imageButton116"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton116"
+            app:srcCompat="@drawable/the_body_shop" />
+
+        <ImageButton
+            android:id="@+id/imageButton211"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/white"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton196"
+            app:layout_constraintStart_toStartOf="@+id/imageButton196"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton196"
+            app:srcCompat="@drawable/forest_essentials" />
+
+        <ImageButton
+            android:id="@+id/imageButton225"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/white"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton211"
+            app:layout_constraintStart_toStartOf="@+id/imageButton211"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton211"
+            app:srcCompat="@drawable/justherb" />
+
+        <ImageButton
+            android:id="@+id/imageButton283"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="200dp"
+            android:backgroundTint="@color/white"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton225"
+            app:layout_constraintStart_toStartOf="@+id/imageButton225"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton225"
+            app:srcCompat="@drawable/bodess" />
+    </androidx.constraintlayout.widget.ConstraintLayout>    </ScrollView>

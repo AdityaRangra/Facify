@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools2:layout_editor_absoluteX="1dp"
+    tools2:layout_editor_absoluteY="301dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.aditya.com/tools"
+    xmlns:tools2="http://schemas.android.com/tools">
+    <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aditya.facify.facemask">
+
+        <ImageButton
+            android:id="@+id/imageButton20"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/white"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/mamaearth" />
+
+        <ImageButton
+            android:id="@+id/imageButton25"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/white"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="@+id/imageButton20"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton20"
+            app:srcCompat="@drawable/bella_vita" />
+
+        <ImageButton
+            android:id="@+id/imageButton132"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/white"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton25"
+            app:layout_constraintStart_toStartOf="@+id/imageButton25"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton25"
+            app:srcCompat="@drawable/man_matters" />
+
+        <ImageButton
+            android:id="@+id/imageButton139"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/white"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton132"
+            app:layout_constraintStart_toStartOf="@+id/imageButton132"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton132"
+            app:srcCompat="@drawable/kama_ayur" />
+
+        <ImageButton
+            android:id="@+id/imageButton170"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/white"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton139"
+            app:layout_constraintStart_toStartOf="@+id/imageButton139"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton139"
+            app:srcCompat="@drawable/khadi" />
+
+        <ImageButton
+            android:id="@+id/imageButton193"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/white"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton170"
+            app:layout_constraintStart_toStartOf="@+id/imageButton170"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton170"
+            app:srcCompat="@drawable/the_body_shop" />
+
+        <ImageButton
+            android:id="@+id/imageButton246"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/white"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton193"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/imageButton193"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton193"
+            app:srcCompat="@drawable/myglamm" />
+
+        <ImageButton
+            android:id="@+id/imageButton249"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/white"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton246"
+            app:layout_constraintStart_toStartOf="@+id/imageButton246"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton246"
+            app:srcCompat="@drawable/img_5092_745x248" />
+
+        <ImageButton
+            android:id="@+id/imageButton271"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/white"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton249"
+            app:layout_constraintStart_toStartOf="@+id/imageButton249"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton249"
+            app:srcCompat="@drawable/bodess" />
+
+        <ImageButton
+            android:id="@+id/imageButton285"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/white"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton271"
+            app:layout_constraintStart_toStartOf="@+id/imageButton271"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton271"
+            app:srcCompat="@drawable/pure" />
+
+        <ImageButton
+            android:id="@+id/imageButton297"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/white"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton285"
+            app:layout_constraintStart_toStartOf="@+id/imageButton285"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton285"
+            app:srcCompat="@drawable/oziva_logo" />
+
+        <ImageButton
+            android:id="@+id/imageButton313"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/white"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton297"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imageButton297"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton297"
+            app:srcCompat="@drawable/lotus_botanicals" />
+
+        <ImageButton
+            android:id="@+id/imageButton323"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="200dp"
+            android:backgroundTint="@color/white"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton313"
+            app:layout_constraintStart_toStartOf="@+id/imageButton313"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton313"
+            app:srcCompat="@drawable/vlvah" />
+    </androidx.constraintlayout.widget.ConstraintLayout></ScrollView>

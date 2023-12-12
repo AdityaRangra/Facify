@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.aditya.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".beautyActivity">
+
+    <Button
+        android:id="@+id/button43"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="cursive"
+        android:text="@string/face_oil"
+        app:layout_constraintEnd_toEndOf="@+id/button26"
+        app:layout_constraintStart_toStartOf="@+id/button26"
+        app:layout_constraintTop_toBottomOf="@+id/button26" />
+
+    <Button
+        android:id="@+id/button44"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        android:fontFamily="cursive"
+        android:text="@string/cleansing_butter"
+        app:layout_constraintEnd_toEndOf="@+id/button43"
+        app:layout_constraintStart_toStartOf="@+id/button43"
+        app:layout_constraintTop_toBottomOf="@+id/button43"
+        android:focusable="true" />
+
+    <Button
+        android:id="@+id/button45"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        android:fontFamily="cursive"
+        android:text="@string/peal_off_mask"
+        app:layout_constraintEnd_toEndOf="@+id/button44"
+        app:layout_constraintStart_toStartOf="@+id/button44"
+        app:layout_constraintTop_toBottomOf="@+id/button44"
+        android:focusable="true" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="cursive"
+        android:text="@string/toner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

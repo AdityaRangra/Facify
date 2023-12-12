@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.aditya.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MakeupActivity">
+
+    <Button
+        android:id="@+id/button46"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        android:fontFamily="cursive"
+        android:text="lip care"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button47"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        android:fontFamily="cursive"
+        android:text="face accessories"
+        app:layout_constraintEnd_toEndOf="@+id/button46"
+        app:layout_constraintStart_toStartOf="@+id/button46"
+        app:layout_constraintTop_toBottomOf="@+id/button46" />
+
+    <Button
+        android:id="@+id/button48"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        android:fontFamily="cursive"
+        android:text="kajal"
+        app:layout_constraintEnd_toEndOf="@+id/button47"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button47"
+        app:layout_constraintTop_toBottomOf="@+id/button47" />
+
+    <Button
+        android:id="@+id/button49"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        android:fontFamily="cursive"
+        android:text="foundation"
+        app:layout_constraintEnd_toEndOf="@+id/button48"
+        app:layout_constraintStart_toStartOf="@+id/button48"
+        app:layout_constraintTop_toBottomOf="@+id/button48" />
+
+    <Button
+        android:id="@+id/button50"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        android:fontFamily="cursive"
+        android:text="compact"
+        app:layout_constraintEnd_toEndOf="@+id/button49"
+        app:layout_constraintStart_toStartOf="@+id/button49"
+        app:layout_constraintTop_toBottomOf="@+id/button49" />
+
+    <Button
+        android:id="@+id/button51"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        android:fontFamily="cursive"
+        android:text="conceler"
+        app:layout_constraintEnd_toEndOf="@+id/button50"
+        app:layout_constraintStart_toStartOf="@+id/button50"
+        app:layout_constraintTop_toBottomOf="@+id/button50" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

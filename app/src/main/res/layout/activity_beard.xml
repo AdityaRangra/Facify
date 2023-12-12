@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.aditya.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/white"
+    tools:context=".Beard_Activity">
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/im_fell_double_pica"
+        android:text="@string/beard_oil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button52"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/im_fell_double_pica"
+        android:text="@string/mustache_grow_oil"
+        app:layout_constraintEnd_toEndOf="@+id/button17"
+        app:layout_constraintStart_toStartOf="@+id/button17"
+        app:layout_constraintTop_toBottomOf="@+id/button17" />
+
+    <Button
+        android:id="@+id/button53"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/im_fell_double_pica"
+        android:text="@string/beard_growth_serum"
+        app:layout_constraintEnd_toEndOf="@+id/button52"
+        app:layout_constraintStart_toStartOf="@+id/button52"
+        app:layout_constraintTop_toBottomOf="@+id/button52" />
+
+    <Button
+        android:id="@+id/button54"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/im_fell_double_pica"
+        android:text="@string/beard_wash"
+        app:layout_constraintEnd_toEndOf="@+id/button53"
+        app:layout_constraintStart_toStartOf="@+id/button53"
+        app:layout_constraintTop_toBottomOf="@+id/button53" />
+
+    <Button
+        android:id="@+id/button55"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/im_fell_double_pica"
+        android:text="@string/beard_cream"
+        app:layout_constraintEnd_toEndOf="@+id/button54"
+        app:layout_constraintStart_toStartOf="@+id/button54"
+        app:layout_constraintTop_toBottomOf="@+id/button54" />
+
+    <Button
+        android:id="@+id/button56"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/im_fell_double_pica"
+        android:text="@string/beard_wax"
+        app:layout_constraintEnd_toEndOf="@+id/button55"
+        app:layout_constraintStart_toStartOf="@+id/button55"
+        app:layout_constraintTop_toBottomOf="@+id/button55" />
+
+    <Button
+        android:id="@+id/button57"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/im_fell_double_pica"
+        android:text="@string/beard_colour"
+        app:layout_constraintEnd_toEndOf="@+id/button56"
+        app:layout_constraintStart_toStartOf="@+id/button56"
+        app:layout_constraintTop_toBottomOf="@+id/button56" />
+</androidx.constraintlayout.widget.ConstraintLayout>
